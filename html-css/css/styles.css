@@ -159,3 +159,25 @@ footer small {
     width: 100%;
 }
 
+@media (max-width: 800px){
+
+	section article {
+        max-width: 100% !important;
+        min-height: 320px;
+    }
+}
+
+/*Smartphone*/
+@media (max-width: 425px){
+	section nav,
+    section article {
+        width: 100%;
+    }
+
+    .container {
+        padding-left: 1%;
+        padding-right: 1%;
+    }
+}
+
+
