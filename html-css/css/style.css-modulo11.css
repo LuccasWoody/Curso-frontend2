@@ -157,34 +157,16 @@ footer {
     width: 100%;
 }
 
-@media (min-width: 800px){
-
-	body{
-		background-image: url(/Curso-frontend2/html-css/Imagens/etapas-de-criacao-de-um-site.jpg);
-		
-        width: 100%;
-
-	}
-
-	
-}
 
 
 
-@media (max-width: 768px){
 
-	nav {
-		width: 100%;
-	}
+@media (max-width: 800px){
 
-	article {
-		width: 70vw;
-	}
-
-	.coluna{
-		width: 50vw;
-		min-width: unset;
-	}
+	section article {
+        max-width: 100% !important;
+        min-height: 320px;
+    }
 }
 
 /*Smartphone*/
